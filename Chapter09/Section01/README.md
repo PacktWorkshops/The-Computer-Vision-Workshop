@@ -1,13 +1,12 @@
-# Chapter 09: Camera Calibration
+# Section 09.1: Pinhole Camera Calibration
 
-Camera Calibration is the **FIRST** step for any vision applications, aiming at removing distortions caused by adopted camera itself. This chapter will briefly disccuss camera calibration for a single camera, a stereo vision, and a projector-camera system.
+Cannonical theories and methods of pinhole camera calibration have been deeply investigated for about two centuries. OpenCV tutorial [Camera calibration With OpenCV](https://docs.opencv.org/4.2.0/d4/d94/tutorial_camera_calibration.html) has dedicately summarized various calibration methods for a single pinhole camera, including:
+- Classical black-white chessboard
+- Symmetrical circle pattern
+- Asymmetrical circle pattern
+
+Clearly, these three methods only varies in respect of calibration boards.
 
 
-## Section 1: Calibration For a Single Camera
 
-
-## Section 2: Calibration For a Stereo Camera System
-
-
-## Section 3: Kinect Calibration
 

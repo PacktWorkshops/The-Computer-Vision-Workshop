@@ -1,13 +1,5 @@
-# Chapter 09: Camera Calibration
+# Section 09.2: Fisheye Camera Calibration
 
-Camera Calibration is the **FIRST** step for any vision applications, aiming at removing distortions caused by adopted camera itself. This chapter will briefly disccuss camera calibration for a single camera, a stereo vision, and a projector-camera system.
+As a particular type of pinhole camera, the fisheye camera has been widely applied in VR/AR recently. Spherical images taken by fisheye cameras are extremely distorted. A more sophisticated method to remove heavy distortion has to be applied for fisheye cameras. OpenCV tutorial [Fishey camera model](https://docs.opencv.org/4.2.0/db/d58/group__calib3d__fisheye.html) provides such tools.
 
-
-## Section 1: Calibration For a Single Camera
-
-
-## Section 2: Calibration For a Stereo Camera System
-
-
-## Section 3: Kinect Calibration
 

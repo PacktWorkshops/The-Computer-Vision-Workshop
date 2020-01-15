@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>9.1 Camera Calibration for a Single Camera · GitBook</title>
+        <title>9.1 Pinhole Camera Calibration · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -284,7 +284,7 @@
                 <a href="./">
             
                     
-                    9.1 Camera Calibration for a Single Camera
+                    9.1 Pinhole Camera Calibration
             
                 </a>
             
@@ -297,7 +297,7 @@
                 <a href="../Section02/">
             
                     
-                    9.2 Camera Calibration for a Stereo Vision
+                    9.2 Fisheye Camera Calibration
             
                 </a>
             
@@ -310,7 +310,20 @@
                 <a href="../Section03/">
             
                     
-                    9.3 Kinect Calibration
+                    9.3 Stereo Vision Calibration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.13.4" data-path="../Section04/">
+            
+                <a href="../Section04/">
+            
+                    
+                    9.4 Kinect Calibration
             
                 </a>
             
@@ -514,7 +527,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >9.1 Camera Calibration for a Single Camera</a>
+        <a href="../.." >9.1 Pinhole Camera Calibration</a>
     </h1>
 </div>
 
@@ -529,11 +542,14 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="chapter-09-camera-calibration">Chapter 09: Camera Calibration</h1>
-<p>Camera Calibration is the <strong>FIRST</strong> step for any vision applications, aiming at removing distortions caused by adopted camera itself. This chapter will briefly disccuss camera calibration for a single camera, a stereo vision, and a projector-camera system.</p>
-<h2 id="section-1-calibration-for-a-single-camera">Section 1: Calibration For a Single Camera</h2>
-<h2 id="section-2-calibration-for-a-stereo-camera-system">Section 2: Calibration For a Stereo Camera System</h2>
-<h2 id="section-3-kinect-calibration">Section 3: Kinect Calibration</h2>
+                                <h1 id="section-091-pinhole-camera-calibration">Section 09.1: Pinhole Camera Calibration</h1>
+<p>Cannonical theories and methods of pinhole camera calibration have been deeply investigated for about two centuries. OpenCV tutorial <a href="https://docs.opencv.org/4.2.0/d4/d94/tutorial_camera_calibration.html" target="_blank">Camera calibration With OpenCV</a> has dedicately summarized various calibration methods for a single pinhole camera, including:</p>
+<ul>
+<li>Classical black-white chessboard</li>
+<li>Symmetrical circle pattern</li>
+<li>Asymmetrical circle pattern</li>
+</ul>
+<p>Clearly, these three methods only varies in respect of calibration boards.</p>
 
                                 
                                 </section>
@@ -566,7 +582,7 @@
                 </a>
                 
                 
-                <a href="../Section02/" class="navigation navigation-next " aria-label="Next page: 9.2 Camera Calibration for a Stereo Vision">
+                <a href="../Section02/" class="navigation navigation-next " aria-label="Next page: 9.2 Fisheye Camera Calibration">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -577,7 +593,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"9.1 Camera Calibration for a Single Camera","level":"2.13.1","depth":2,"next":{"title":"9.2 Camera Calibration for a Stereo Vision","level":"2.13.2","depth":2,"path":"Chapter09/Section02/README.md","ref":"Chapter09/Section02/README.md","articles":[]},"previous":{"title":"Chapter 09. Camera Calibration","level":"2.13","depth":1,"path":"Chapter09/README.md","ref":"Chapter09/README.md","articles":[{"title":"9.1 Camera Calibration for a Single Camera","level":"2.13.1","depth":2,"path":"Chapter09/Section01/README.md","ref":"Chapter09/Section01/README.md","articles":[]},{"title":"9.2 Camera Calibration for a Stereo Vision","level":"2.13.2","depth":2,"path":"Chapter09/Section02/README.md","ref":"Chapter09/Section02/README.md","articles":[]},{"title":"9.3 Kinect Calibration","level":"2.13.3","depth":2,"path":"Chapter09/Section03/README.md","ref":"Chapter09/Section03/README.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Chapter09/Section01/README.md","mtime":"2020-01-07T15:56:44.862Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-11T03:10:08.703Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"9.1 Pinhole Camera Calibration","level":"2.13.1","depth":2,"next":{"title":"9.2 Fisheye Camera Calibration","level":"2.13.2","depth":2,"path":"Chapter09/Section02/README.md","ref":"Chapter09/Section02/README.md","articles":[]},"previous":{"title":"Chapter 09. Camera Calibration","level":"2.13","depth":1,"path":"Chapter09/README.md","ref":"Chapter09/README.md","articles":[{"title":"9.1 Pinhole Camera Calibration","level":"2.13.1","depth":2,"path":"Chapter09/Section01/README.md","ref":"Chapter09/Section01/README.md","articles":[]},{"title":"9.2 Fisheye Camera Calibration","level":"2.13.2","depth":2,"path":"Chapter09/Section02/README.md","ref":"Chapter09/Section02/README.md","articles":[]},{"title":"9.3 Stereo Vision Calibration","level":"2.13.3","depth":2,"path":"Chapter09/Section03/README.md","ref":"Chapter09/Section03/README.md","articles":[]},{"title":"9.4 Kinect Calibration","level":"2.13.4","depth":2,"path":"Chapter09/Section04/README.md","ref":"Chapter09/Section04/README.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Chapter09/Section01/README.md","mtime":"2020-01-15T11:25:19.345Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-15T10:02:48.784Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

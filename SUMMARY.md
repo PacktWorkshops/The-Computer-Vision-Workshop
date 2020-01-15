@@ -19,9 +19,10 @@
 
 * [Part 4 - 3D Reconstruction and Visualization](Part4_3D_Reconstruction_Visualization/README.md)
 09. [Chapter 09. Camera Calibration](Chapter09/README.md)
-    * [9.1 Camera Calibration for a Single Camera](Chapter09/Section01/README.md)
-    * [9.2 Camera Calibration for a Stereo Vision](Chapter09/Section02/README.md)
-    * [9.3 Kinect Calibration](Chapter09/Section03/README.md)
+    * [9.1 Pinhole Camera Calibration](Chapter09/Section01/README.md)
+    * [9.2 Fisheye Camera Calibration](Chapter09/Section02/README.md)
+    * [9.3 Stereo Vision Calibration](Chapter09/Section03/README.md)
+    * [9.4 Kinect Calibration](Chapter09/Section04/README.md)
 10. [Chapter 10. Possive 3D Reconstruction](Chapter10/README.md)
     * [10.1 Binocular Stereo Vision](Chapter10/Section01/README.md)
     * [10.2 Monocular Structure From Motion](Chapter10/Section02/README.md)
