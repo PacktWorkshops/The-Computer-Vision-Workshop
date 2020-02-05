@@ -25,6 +25,8 @@ SOFTWARE.
 import cv2 
 import numpy as np 
 
+import matplotlib.pyplot as plt
+
 inputImagePath = "../data/eyes.jpeg"
 
 haarCascadePath = "../data/haarcascade_eye.xml"
@@ -64,7 +66,6 @@ def detectionUsingCascades(imageFile, cascadeFile):
 
     cv2.imshow("Object Detection", image)
     cv2.waitKey(0)
-    cv2.imwrite("eyes-result.png",image)
     cv2.destroyAllWindows()
 
     # Step 7 – Return the bounding boxes

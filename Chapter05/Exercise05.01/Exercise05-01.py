@@ -49,7 +49,6 @@ for face in detectedFaces:
   cv2.rectangle(inputImage, (x, y), (x+w, y+h), (0, 0, 255), 3)
 
 cv2.imshow("Faces Detected", inputImage)
-cv2.imwrite("Exercise05-01-result.png",inputImage)
 
 cv2.waitKey(0)
 
