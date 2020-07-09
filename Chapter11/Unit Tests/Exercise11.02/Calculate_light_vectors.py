@@ -65,3 +65,18 @@ def calculate_light_vectors(im, sphere_dim, th=200, show=False):
 	
 	return L
 	
+
+	
+if __name__ == "__main__":
+	
+	path = r"../Data/Chrome_simulated/chrome_sphere_00.png"
+	sphere_file = r"../Data/Chrome_simulated/sphere_dimensions.txt"
+	th = 45
+
+	im = cv2.imread(path)
+	sphere_dim = np.loadtxt(sphere_file)
+	
+	l = calculate_light_vectors(im, sphere_dim, th, True)
+	print("Single vector Done")
+	
+

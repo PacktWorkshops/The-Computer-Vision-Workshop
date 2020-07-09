@@ -39,17 +39,3 @@ def collect_light_vectors(folder_path, sphere_file, th, show=False):
 	
 	return np.array(L_list)
 
-	
-if __name__ == "__main__":
-	
-
-	folder_path = r"../Data/Chrome_simulated/"
-	sphere_file = r"../Data/Chrome_simulated/sphere_dimensions.txt"
-	th = 48
-	show = True
-
-	#Run
-	L_list = collect_light_vectors(folder_path, sphere_file, th, show)
-	print("Lights: \n", L_list)
-	print("All vectors Done")
-	

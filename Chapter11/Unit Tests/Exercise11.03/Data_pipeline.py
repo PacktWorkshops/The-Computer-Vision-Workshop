@@ -4,6 +4,9 @@ import pathlib
 import glob
 
 
+def fetch_dataset(path):
+	return Dataset(path)
+
 class Dataset(object):
 	def __init__(self, path):
 		
@@ -29,7 +32,12 @@ class Dataset(object):
 		self.albedo_path = str(self.output_path / "albedo.png")
 		self.normals_path = str(self.output_path / "normals.png")
 		self.normals_npy = str(self.output_path / "normals.npy")
+		
+		
+		
 
-def fetch_dataset(path):
-	return Dataset(path)
-
+if __name__ == "__main__":
+	
+	path = "../Data/turtle/"
+	data = fetch_dataset(path)
+	

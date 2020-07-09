@@ -70,3 +70,17 @@ def extract_and_save_DepthMap(folder, mask_set):
 	print("\n Use Mouse to view the visualized 3D information from different perspectives.")
 	plot_3D(X, Y, Z)
 	print("End.")
+
+if __name__ == "__main__":
+	
+	#Input: Use mask_set by assigning it with any particular custom mask of interest.
+	folder = "../Data/Chrome_simulated/"
+	#folder = "../Data/real_sphere_based_Data2/"
+	#folder = "../Data/pig/"
+	
+	mask_set = None
+	
+	#Run
+	extract_and_save_DepthMap(folder, mask_set)
+	print("Depth estimation Done")
+	
